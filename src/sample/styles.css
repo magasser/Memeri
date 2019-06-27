@@ -3,6 +3,14 @@
     -fx-background-radius: 30;
 }
 
+.inner-image {
+    -fx-image: url("../flower.jpeg");
+}
+
+.outer-image {
+    -fx-image: url("../questionmark.jpg")
+}
+
 Button {
     -fx-background-size: 100px 30px;
     -fx-background-radius: 20;

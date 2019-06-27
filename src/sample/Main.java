@@ -14,8 +14,11 @@ public class Main extends Application {
     public void start(Stage primaryStage) throws Exception {
         Parent root = FXMLLoader.load(Objects.requireNonNull(getClass().getClassLoader().getResource("./sample/memeri.fxml")));
         primaryStage.setTitle("Memeri");
-        primaryStage.setScene(new Scene(root));
-        primaryStage.setMaximized(true);
+        Scene scene = new Scene(root, 800,800);
+        String styles = Objects.requireNonNull(this.getClass().getClassLoader().getResource("./sample/styles.css")).toExternalForm();
+        scene.getStylesheets().add(styles);
+        primaryStage.setScene(scene);
+        //primaryStage.setMaximized(true);
         primaryStage.show();
     }
 
