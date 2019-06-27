@@ -1,0 +1,9 @@
+.card-style {
+    -fx-background-size: 50px;
+    -fx-background-radius: 30;
+}
+
+Button {
+    -fx-background-size: 100px 30px;
+    -fx-background-radius: 20;
+}
