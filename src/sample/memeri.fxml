@@ -8,6 +8,6 @@
 <StackPane prefHeight="225.0" prefWidth="265.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.MemeriController">
     <VBox alignment="CENTER" spacing="50.0" StackPane.alignment="CENTER">
         <GridPane fx:id="grid" alignment="CENTER" hgap="30" vgap="30" />
-        <Button fx:id="startButton" onAction="#startMemeri" />
+        <Button fx:id="startButton" />
     </VBox>
 </StackPane>
